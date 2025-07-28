@@ -1,0 +1,36 @@
+{
+  "id": "test-dialogues",
+  "campaignId": "test",
+  "dialogues": [
+    {
+      "id": "oldManIntro",
+      "name": "Old Man in Town",
+      "start": "node1",
+      "nodes": {
+        "node1": {
+          "text": "Old Man: Hello, traveler. Do you seek a reward?",
+          "options": [
+            {
+              "text": "Yes, please.",
+              "next": "node2",
+              "reward": { "xp": 50, "items": ["healingPotion"] }
+            },
+            {
+              "text": "No, thanks.",
+              "next": "node3",
+              "reward": { "xp": 10 }
+            }
+          ]
+        },
+        "node2": {
+          "text": "Old Man: Here you go! Take this potion and some experience.",
+          "options": []
+        },
+        "node3": {
+          "text": "Old Man: Very well. Safe travels!",
+          "options": []
+        }
+      }
+    }
+  ]
+}

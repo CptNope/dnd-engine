@@ -1,0 +1,33 @@
+{
+  "healingPotion": {
+    "name": "Potion of Healing",
+    "description": "Restores 1d8 hit points when consumed.",
+    "type": "potion",
+    "effect": {
+      "heal": "1d8"
+    }
+  }
+  ,
+  "shortSword": {
+    "name": "Short Sword",
+    "description": "A basic melee weapon dealing 1d6 damage.",
+    "type": "weapon",
+    "damage": "1d6"
+  },
+  "shield": {
+    "name": "Shield",
+    "description": "A simple shield that increases the wielder's armour class by 1 when equipped.",
+    "type": "armor",
+    "effect": {
+      "acBonus": 1
+    }
+  },
+  "potionOfStrength": {
+    "name": "Potion of Strength",
+    "description": "Temporarily grants a +2 bonus to damage for one attack.",
+    "type": "potion",
+    "effect": {
+      "damageBonus": 2
+    }
+  }
+}

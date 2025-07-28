@@ -1,0 +1,18 @@
+{
+  "id": "town",
+  "name": "Sample Town",
+  "biome": "town",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","road","road","road","grass","grass","road","road","road","grass"],
+    ["grass","road","house","road","grass","grass","road","house","road","grass"],
+    ["grass","road","road","road","grass","grass","road","road","road","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","road","road","road","grass","grass","road","road","road","grass"],
+    ["grass","road","house","road","grass","grass","road","house","road","grass"],
+    ["grass","road","road","road","grass","grass","road","road","road","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"]
+  ]
+}

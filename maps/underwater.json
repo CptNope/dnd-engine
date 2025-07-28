@@ -1,0 +1,18 @@
+{
+  "id": "underwater",
+  "name": "Underwater Realm",
+  "biome": "water",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["water","water","water","water","water","coral","water","water","water","water"],
+    ["water","coral","water","water","water","water","water","coral","water","water"],
+    ["water","water","coral","water","water","water","coral","water","water","water"],
+    ["water","water","water","sand","water","water","water","water","water","water"],
+    ["water","water","water","water","water","water","water","water","water","water"],
+    ["water","coral","water","water","coral","water","water","coral","water","water"],
+    ["water","water","water","water","water","sand","water","water","water","water"],
+    ["coral","water","water","water","water","water","water","water","water","coral"],
+    ["water","water","water","water","coral","water","water","water","water","water"],
+    ["water","water","coral","water","water","water","coral","water","water","water"]
+  ]
+}

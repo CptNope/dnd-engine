@@ -1,0 +1,21 @@
+{
+  "name": "DnD Engine",
+  "short_name": "DnD Engine",
+  "description": "A modular JavaScript engine for Dungeons & Dragons style games.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#111827",
+  "lang": "en-US"
+  /*
+    You can add an "icons" array here with objects describing your app
+    icon in multiple sizes.  Example:
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  */
+}

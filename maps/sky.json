@@ -1,0 +1,18 @@
+{
+  "id": "sky",
+  "name": "Sky Realm",
+  "biome": "sky",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["sky","sky","sky","cloud","sky","sky","island","sky","cloud","sky"],
+    ["sky","cloud","sky","sky","sky","sky","sky","sky","cloud","sky"],
+    ["sky","sky","cloud","sky","sky","island","sky","cloud","sky","sky"],
+    ["cloud","sky","sky","sky","cloud","sky","sky","sky","sky","cloud"],
+    ["sky","sky","sky","sky","sky","sky","sky","sky","sky","sky"],
+    ["sky","sky","island","sky","sky","sky","sky","island","sky","sky"],
+    ["sky","cloud","sky","sky","island","sky","sky","sky","cloud","sky"],
+    ["island","sky","sky","cloud","sky","sky","cloud","sky","sky","island"],
+    ["sky","sky","sky","sky","sky","cloud","sky","sky","sky","sky"],
+    ["sky","cloud","sky","sky","sky","sky","sky","cloud","sky","sky"]
+  ]
+}

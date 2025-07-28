@@ -1,0 +1,18 @@
+{
+  "id": "overworld",
+  "name": "Overworld",
+  "biome": "overworld",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["grass","grass","forest","forest","forest","grass","grass","grass","water","water"],
+    ["grass","forest","forest","forest","forest","grass","grass","water","water","water"],
+    ["forest","forest","forest","grass","grass","grass","grass","water","water","water"],
+    ["forest","forest","grass","grass","grass","grass","forest","forest","grass","grass"],
+    ["grass","grass","grass","grass","grass","forest","forest","forest","grass","grass"],
+    ["grass","grass","grass","grass","forest","forest","forest","grass","grass","grass"],
+    ["grass","grass","grass","forest","forest","forest","forest","forest","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["water","water","water","grass","grass","grass","grass","grass","grass","grass"]
+  ]
+}

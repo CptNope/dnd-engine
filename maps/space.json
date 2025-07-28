@@ -1,0 +1,18 @@
+{
+  "id": "space",
+  "name": "Outer Space",
+  "biome": "space",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["void","void","void","asteroid","void","void","station","void","void","void"],
+    ["void","asteroid","void","void","void","void","void","void","asteroid","void"],
+    ["void","void","asteroid","void","void","void","void","asteroid","void","void"],
+    ["asteroid","void","void","void","void","station","void","void","void","asteroid"],
+    ["void","void","void","void","void","void","void","void","void","void"],
+    ["void","void","void","station","void","void","void","void","void","void"],
+    ["void","void","asteroid","void","void","void","asteroid","void","void","void"],
+    ["station","void","void","void","void","void","void","void","void","station"],
+    ["void","void","void","void","asteroid","void","void","void","void","void"],
+    ["void","asteroid","void","void","void","void","void","asteroid","void","void"]
+  ]
+}

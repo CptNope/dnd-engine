@@ -1,0 +1,18 @@
+{
+  "id": "otherdimension",
+  "name": "Other Dimension",
+  "biome": "dimension",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["void","void","portal","void","void","floor","void","void","portal","void"],
+    ["void","portal","void","void","floor","void","void","portal","void","void"],
+    ["floor","void","void","portal","void","void","floor","void","void","floor"],
+    ["void","void","void","void","void","portal","void","void","void","void"],
+    ["void","floor","void","void","void","void","floor","void","void","void"],
+    ["void","void","portal","void","void","floor","void","void","portal","void"],
+    ["void","void","void","floor","void","void","void","void","void","void"],
+    ["portal","void","void","void","void","void","void","floor","void","portal"],
+    ["void","void","floor","void","void","void","portal","void","void","void"],
+    ["void","portal","void","void","floor","void","void","void","portal","void"]
+  ]
+}

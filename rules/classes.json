@@ -1,0 +1,61 @@
+{
+  "cleric": {
+    "hitDie": 6,
+    "experienceTable": {
+      "1": 0,
+      "2": 1500,
+      "3": 3000
+    },
+    "spellSlots": {
+      "1": [1],
+      "2": [2],
+      "3": [2, 1]
+    },
+    "savingThrows": {
+      "deathRayOrPoison": 11,
+      "magicWands": 12,
+      "paralysisOrTurnToStone": 14,
+      "dragonBreath": 16,
+      "rodsStavesOrSpells": 15
+    }
+  },
+  "fighter": {
+    "hitDie": 8,
+    "experienceTable": {
+      "1": 0,
+      "2": 2000,
+      "3": 4000
+    },
+    "savingThrows": {
+      "deathRayOrPoison": 12,
+      "magicWands": 13,
+      "paralysisOrTurnToStone": 14,
+      "dragonBreath": 15,
+      "rodsStavesOrSpells": 16
+    }
+  },
+  "thief": {
+    "hitDie": 4,
+    "experienceTable": {
+      "1": 0,
+      "2": 1250,
+      "3": 2500
+    },
+    "savingThrows": {
+      "deathRayOrPoison": 13,
+      "magicWands": 14,
+      "paralysisOrTurnToStone": 13,
+      "dragonBreath": 16,
+      "rodsStavesOrSpells": 15
+    },
+    "abilities": {
+      "pickPockets": [30, 35, 40],
+      "openLocks": [25, 29, 33],
+      "findTraps": [20, 25, 30],
+      "moveSilently": [20, 25, 30],
+      "hideInShadows": [10, 15, 20],
+      "hearNoise": [15, 20, 25],
+      "climbWalls": [87, 88, 89]
+    }
+  }
+}

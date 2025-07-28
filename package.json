@@ -1,0 +1,29 @@
+{
+  "name": "dnd-engine",
+  "version": "0.1.0",
+  "description": "Modular Dungeons & Dragons clone engine",
+  "main": "src/server/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/app.js",
+    "dev": "nodemon src/server/app.js",
+    "build": "echo 'No build step necessary.'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "dnd",
+    "game",
+    "engine",
+    "multiplayer",
+    "pwa"
+  ],
+  "author": "",
+  "license": "MIT"
+}

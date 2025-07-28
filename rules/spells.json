@@ -1,0 +1,35 @@
+{
+  "cleric": {
+    "1": [
+      {
+        "name": "Cure Light Wounds",
+        "range": "Touch",
+        "duration": "Instant",
+        "description": "Heals a small amount of damage to one creature.",
+        "effect": {
+          "heal": "1d6+1"
+        }
+      },
+      {
+        "name": "Detect Evil",
+        "range": "Self",
+        "duration": "6 turns",
+        "description": "Detects evil intentions or creatures within range."
+      }
+    ],
+    "2": []
+  },
+  "magicUser": {
+    "1": [
+      {
+        "name": "Magic Missile",
+        "range": "150’",
+        "duration": "Instant",
+        "description": "Creates darts of force that always hit.",
+        "effect": {
+          "damage": "1d4+1"
+        }
+      }
+    ]
+  }
+}

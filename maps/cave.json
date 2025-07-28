@@ -1,0 +1,18 @@
+{
+  "id": "cave",
+  "name": "Dark Cave",
+  "biome": "cave",
+  "dimensions": { "width": 10, "height": 10 },
+  "tiles": [
+    ["rock","rock","rock","rock","rock","rock","rock","rock","rock","rock"],
+    ["rock","floor","floor","water","floor","floor","water","floor","floor","rock"],
+    ["rock","floor","rock","rock","floor","floor","rock","rock","floor","rock"],
+    ["rock","floor","rock","floor","floor","floor","floor","rock","floor","rock"],
+    ["rock","water","floor","floor","rock","rock","floor","floor","water","rock"],
+    ["rock","floor","floor","rock","rock","rock","floor","floor","floor","rock"],
+    ["rock","floor","rock","floor","floor","floor","rock","floor","floor","rock"],
+    ["rock","floor","floor","floor","rock","floor","floor","floor","floor","rock"],
+    ["rock","floor","rock","floor","floor","floor","rock","floor","floor","rock"],
+    ["rock","rock","rock","rock","rock","rock","rock","rock","rock","rock"]
+  ]
+}

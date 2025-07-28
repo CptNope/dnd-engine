@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>DnD Engine Demo</title>
+  </head>
+  <body>
+    <h1>DnD Engine Demo</h1>
+    <p class="subtitle">A vanilla JavaScript client for the modular DnD engine.</p>
+    <section id="join-section" class="panel">
+      <h2>Join a game</h2>
+      <input id="gameId" type="text" placeholder="Game ID" />
+      <input id="playerName" type="text" placeholder="Your name" />
+      <button id="joinBtn">Join Game</button>
+    </section>
+    <section id="campaign-section" class="panel hidden">
+      <h2>Select a campaign</h2>
+      <div id="campaignList">Loading campaigns…</div>
+    </section>
+
+    <section id="map-section" class="panel hidden">
+      <h2>Select a map</h2>
+      <div id="mapList">Loading maps…</div>
+      <div id="mapMode" style="margin-top: 0.5rem;">
+        <label><input type="radio" name="renderMode" value="2d" checked> 2D</label>
+        <label style="margin-left: 1rem;"><input type="radio" name="renderMode" value="3d"> 3D</label>
+      </div>
+    </section>
+
+    <canvas id="mapCanvas" class="hidden" width="500" height="500" style="border: 1px solid #cbd5e0; margin-top: 1rem;"></canvas>
+    <section id="character-section" class="panel hidden">
+      <h2>Create character</h2>
+      <input id="charName" type="text" placeholder="Character name" />
+      <input id="charRace" type="text" placeholder="Race" />
+      <input id="charClass" type="text" placeholder="Class" />
+      <div class="ability-fields" style="margin-top: 0.5rem;">
+        <label>STR <input id="charSTR" type="number" min="1" max="18" value="10" style="width: 3rem;" /></label>
+        <label>DEX <input id="charDEX" type="number" min="1" max="18" value="10" style="width: 3rem;" /></label>
+        <label>CON <input id="charCON" type="number" min="1" max="18" value="10" style="width: 3rem;" /></label>
+        <label>INT <input id="charINT" type="number" min="1" max="18" value="10" style="width: 3rem;" /></label>
+        <label>WIS <input id="charWIS" type="number" min="1" max="18" value="10" style="width: 3rem;" /></label>
+        <label>CHA <input id="charCHA" type="number" min="1" max="18" value="10" style="width: 3rem;" /></label>
+      </div>
+      <button id="createCharBtn">Create Character</button>
+    </section>
+    <section id="actions-section" class="panel hidden">
+      <h2>Actions</h2>
+      <button id="rollBtn">Roll d20</button>
+      <textarea id="log" rows="10" cols="80" readonly></textarea>
+      <div id="controls-section" class="hidden">
+        <h3>Test controls</h3>
+        <button id="spawnOrcBtn">Spawn Orc</button>
+        <button id="attackMonsterBtn">Attack Monster</button>
+        <button id="givePotionBtn">Get Healing Potion</button>
+        <button id="usePotionBtn">Use Healing Potion</button>
+        <button id="magicMissileBtn">Cast Magic Missile</button>
+        <button id="cureWoundsBtn">Cast Cure Wounds</button>
+        <button id="startDialogueBtn">Start Dialogue</button>
+        <button id="exportCharBtn">Export Character</button>
+      </div>
+    </section>
+    <!-- Character sheet display -->
+    <section id="sheet-section" class="panel hidden">
+      <h3>Character Sheet</h3>
+      <div id="characterSheet"></div>
+    </section>
+
+    <!-- Dialogue display panel -->
+    <section id="dialogue-section" class="panel hidden">
+      <h3>Dialogue</h3>
+      <div id="dialogueText" style="margin-bottom: 0.5rem;"></div>
+      <div id="dialogueOptions"></div>
+      <button id="closeDialogueBtn" class="hidden">Close</button>
+    </section>
+    <canvas id="renderCanvas" class="hidden" style="width:100%;height:400px;"></canvas>
+    <!-- Babylon.js loaded from CDN.  Replace with a local import if preferred. -->
+    <script src="https://cdn.jsdelivr.net/npm/babylonjs@6.32.0/babylon.js"></script>
+    <script type="module" src="/js/main.js"></script>
+    <script>
+      // Register service worker for PWA support
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/sw.js')
+            .catch((err) => console.error('Service worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>

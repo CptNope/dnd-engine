@@ -1,0 +1,18 @@
+{
+  "id": "test",
+  "name": "Test Campaign",
+  "description": "A sample adventure designed to test the core engine features.",
+  "startingLocation": "town-square",
+  "maps": [
+    {
+      "id": "town-square",
+      "name": "Town Square",
+      "description": "A bustling plaza where adventurers gather.",
+      "npcs": [],
+      "monsters": []
+    }
+  ],
+  "monsters": [],
+  "items": [],
+  "quests": []
+}
